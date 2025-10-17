@@ -1,0 +1,14 @@
+PREGUNTAS
+1. ¿Qué significa className en React? 
+RESPUESTA: es el atributo que se usa en lugar de class de HTML.
+
+¿Las props tienen un limite? 
+RESPUESTA:No, las props no tienen un límite fijo en React.Se puede pasar tantas que se necesiten a un componente.
+Sin embargo, no es buena práctica abusar de ellas porque puede volver el código difícil de mantener.
+
+
+¿Quién define las props? 
+RESPUESTA: Las define el componente padre que utiliza a otro componente.
+El padre decide qué valores enviar, el hijo solo las recibe y las usa, pero no puede cambiarlas.
+
+
